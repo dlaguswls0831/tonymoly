@@ -150,7 +150,7 @@ div.mainWrap>div.main>div.mainLeft>div.image{
     background-position: bottom;
     background-repeat: no-repeat;
     background-image: url('../images/main_img/main_img01.jpg');
-    text-indent: -999px;
+    color: transparent;
 }
 div.mainWrap>div.main>div.mainLeft>div.texts{
     width: calc(100% / 6 * 3);
@@ -201,6 +201,7 @@ div.mainWrap>div.main>div.mainRight>div.image{
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/main_img/main_img02.jpg');
+    color: transparent;
 }
 div.mainWrap>div.main>div.mainRight>div.texts{
     width: calc(100% / 4 * 3);
@@ -276,6 +277,7 @@ div.cntWrap>div.content>div.section div.article>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: transparent;
 }
 div.cntWrap>div.content>div.section>div.article>div.texts{}
 div.cntWrap>div.content>div.section>div.article>div.texts>h3{}
@@ -329,6 +331,7 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.ovrGridImg{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: transparent;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.image>div.ovrGridImg{
     margin-left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
