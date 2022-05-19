@@ -599,6 +599,9 @@ div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p{
     padding: 0px 5px;
     transition: height 0.5s;
 }
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p.on{
+    height: 160px;
+}
 div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>div.btn{}
 div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>div.btn>span{
     font-size: 15px;

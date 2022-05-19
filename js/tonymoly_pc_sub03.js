@@ -3,17 +3,23 @@ $(function(){
     var pag = $('.pagbtn>.paging');
     var artG = $('.artGroup');
     var bar = $('.nav>li');
-    var cnt02Btn = $('.cnt02>.artView>.artGroup>.article>.texts>.btn')
+    var cnt02Btn = $('.cnt02>.artView>.artGroup>.article>.texts>.btn');
     var i=0;
     var mv = 0;
     var wd = $(window).width();
     
     if(wd > 1024){
         mv = 33.333;
+        btn.find('.left>i').click(rightSlide);
+        btn.find('.right>i').click(leftSlide);
     }else if(wd > 420 && wd <= 1024){
         mv = 100;
+        artG.swipeleft(leftSlide);
+        artG.swiperight(rightSlide);
     }else{
         mv = 100;
+        artG.swipeleft(leftSlide);
+        artG.swiperight(rightSlide);
     }
 
     function paging(){
@@ -50,12 +56,6 @@ $(function(){
     }
 
     pag.find('li').click(paging);
-    btn.find('.left>i').click(rightSlide);
-    btn.find('.right>i').click(leftSlide);
-
-    cnt02Btn.click(function(){
-        $('.texts')
-    });
 
     bar.last().mouseover(function(){
         $('.barMenu').css('opacity','1');
@@ -65,12 +65,6 @@ $(function(){
     });
 
     $('.cnt02 .btn').click(function(){
-        if(wd > 1024){
-            $(this).prev().css('height','160px');
-        }else if(wd > 420 && wd <= 1024){
-            $(this).prev().css('height','100px');
-        }else{
-            $(this).prev().css('height','80px');
-        }
+        $(this).prev().toggleClass('on');
     });
 });

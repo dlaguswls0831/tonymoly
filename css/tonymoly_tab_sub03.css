@@ -164,6 +164,9 @@ div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p{
     height: 40px;
     overflow: hidden;
 }
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p.on{
+    height: 100px;
+}
 div.cntWrap>div.content.cnt02>div.btns{
     width: 90%;
     max-width: 700px;

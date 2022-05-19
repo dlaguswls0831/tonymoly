@@ -160,6 +160,9 @@ div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p{
     text-align: center;
     font-size: 12px;
 }
+div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts>p.on{
+    height: 80px;
+}
 div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article>div.texts::after{
     content: '';
     display: block;
