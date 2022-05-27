@@ -10,7 +10,7 @@ $(function(){
     if(wd > 1024){
         mv = 460;
     }else if(wd > 420 && wd <= 1024){
-        mv = 465;
+        mv = 490;
     }else{
         mv = 475;
     }

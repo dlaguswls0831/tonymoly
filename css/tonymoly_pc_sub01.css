@@ -201,7 +201,7 @@ div.tabBoxWrap>div.tabBox>ul.tab>li:hover{
     font-size: 35px;
 }
 div.tabBoxWrap>div.tabBox>ul.tab>li{
-    width: calc(100% / 12 * 1.5);
+    width: calc(100% / 3 - 20px);
     float: left;
     line-height: 80px;
     font-size: 30px;
@@ -209,15 +209,6 @@ div.tabBoxWrap>div.tabBox>ul.tab>li{
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
-}
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(1){
-    margin-left: 80px;
-}
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(2){
-    margin-left: 260px;
-}
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(3){
-    margin-left: 260px;
 }
 
 
@@ -324,6 +315,8 @@ div.cntWrap>div.content>div.section>div.article>div.texts{
 div.cntWrap>div.content>div.section>div.article>div.texts>h3{
     font-size: 17px;
     font-weight: 700;
+    height: 40px;
+    overflow: hidden;
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>h5{
     margin-top: 25px;

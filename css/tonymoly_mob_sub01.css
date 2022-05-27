@@ -48,15 +48,6 @@ div.tabBoxWrap>div.tabBox>ul.tab>li{
 div.tabBoxWrap>div.tabBox>ul.tab>li:hover{
     font-size: 20px;
 }
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(1){
-    margin-left: 0;
-}
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(2){
-    margin-left: 0;
-}
-div.tabBoxWrap>div.tabBox>ul.tab>li:nth-child(3){
-    margin-left: 0;
-}
 div.cntWrap>div.content>div.section div.article>div.texts>div.icon>div.iRight>i:hover{
     color: #000;
     animation-name: none;
@@ -76,6 +67,7 @@ div.cntWrap>div.content>div.section div.article:nth-child(1){
 div.cntWrap>div.content>div.section div.article>div.texts>h3{
     font-size: 16px;
     line-height: 80px;
+    height: 80px;
 }
 div.cntWrap>div.content>div.section div.article>div.texts{
     padding-top: 20px;

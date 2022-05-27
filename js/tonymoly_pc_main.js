@@ -25,7 +25,7 @@ $(function(){
     function left(){
         artG.stop().animate({
             marginLeft : 0
-        },500,function(){
+        },400,function(){
             artG.find('.image:last').prependTo(artG);
             artG.css('margin-left',-mv+'%');
         });
@@ -33,7 +33,7 @@ $(function(){
     function right(){
         artG.stop().animate({
             marginLeft : 2*-mv+'%'
-        },500,function(){
+        },400,function(){
             artG.find('.image:first').appendTo(artG);
             artG.css('margin-left',-mv+'%');
         });

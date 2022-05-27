@@ -45,7 +45,7 @@ div.mntopWrap>div.menuTop>ul.nav>li{
 
 
 /* hdr */
-div.hdrWrap{}
+
 div.hdrWrap>div.header{
     width: 80%;
     max-width: 1080px;
@@ -242,14 +242,13 @@ div.mainWrap>div.main>div.mainRight>div.texts>p{
 
 
 /* cnt 공통 */
-div.cntWrap{}
 div.cntWrap>div.content{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
 
 }
-div.cntWrap>div.content>div.header{}
+
 div.cntWrap>div.content>div.header>h2{
     font-size: 50px;
     line-height: 80px;
@@ -271,19 +270,12 @@ div.cntWrap>div.content>div.header>p{
     margin: 0 auto;
     font-weight: 700;
 }
-div.cntWrap>div.content>div.section{}
-div.cntWrap>div.content>div.section div.article{}
 div.cntWrap>div.content>div.section div.article>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: transparent;
 }
-div.cntWrap>div.content>div.section>div.article>div.texts{}
-div.cntWrap>div.content>div.section>div.article>div.texts>h3{}
-div.cntWrap>div.content>div.section>div.article>div.texts>h5{}
-div.cntWrap>div.content>div.section>div.article>div.texts>p{}
-
 
 /* cnt01-point */
 div.cntWrap>div.content.cnt01{
@@ -313,7 +305,6 @@ div.cntWrap>div.content.cnt01>div.section{
     max-width: 1080px;
     margin: 0 auto;
 }
-div.cntWrap>div.content.cnt01>div.section>div.article{}
 div.cntWrap>div.content.cnt01>div.section>div.article::after{
     content: '';
     display: block;
@@ -410,7 +401,7 @@ div.cntWrap>div.content.cnt02{
 }
 
 /* cnt02 hdr */
-div.cntWrap>div.content.cnt02>div.header{}
+
 div.cntWrap>div.content.cnt02>div.header>h2{
     background-color: #eaeaea;
     width: calc(100% / 12 * 4.5);
@@ -442,11 +433,11 @@ div.cntWrap>div.btn{
 div.cntWrap>div.btn>div.iconLeft{
    float: left;
 }
-div.cntWrap>div.btn>div.iconLeft>i{}
+
 div.cntWrap>div.btn>div.iconRight{
    float: right;
 }
-div.cntWrap>div.btn>div.iconRight>i{}
+
 /* cnt02 section */
 div.cntWrap>div.content.cnt02>div.section{
     margin-top: 40px;
@@ -505,7 +496,6 @@ div.cntWrap>div.content.cnt03{
     padding-top: 40px;
     padding-bottom: 80px;
 }
-div.cntWrap>div.content.cnt03>div.header{}
 div.cntWrap>div.content.cnt03>div.header>h2{
     background-color: #f5f1ec;
     width: calc(100% / 12 * 5.7);
@@ -573,7 +563,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.btn{
     font-size: 20px;
     display: none;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.btn>i{}
 /* left texts */
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article:hover>div.texts:before{
     display: block;
@@ -654,7 +643,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.btn{
     font-size: 20px;
     display: none;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.btn>i{}
 /* right texts */
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article:hover>div.texts::before{
     display: block;
@@ -690,7 +678,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article:hover>div.tex
 
 
 /* cnt04-베스트 제품 */
-div.cntWrap:nth-last-child(2){}
 div.cntWrap>div.content.cnt04{
     width: 100%;
     max-width: 100%
