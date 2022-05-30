@@ -106,16 +106,18 @@ div.cntWrap:nth-child(6){
 div.cntWrap>div.content.cnt02>div.btns{
     display: none;
 }
+div.cntWrap>div.content.cnt02>div.pagbtn{
+    width: 50%;
+    margin: 0 auto;
+}
 div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging{
     padding-left: 0;
-    width: 50%;
-    max-width: 700px;
-}
-div.cntWrap>div.content.cnt02>div.pagbtn{
     width: 80%;
+    margin-top: 20px;
 }
 div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li.on{
     width: 20px;
+    margin: 0 auto;
 }
 div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging>li{
     width: 10px;
