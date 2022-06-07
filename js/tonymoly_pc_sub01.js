@@ -8,7 +8,7 @@ $(function(){
     var bar = $('.nav>li');
     
     if(wd > 1024){
-        mv = 460;
+        mv = 480;
     }else if(wd > 420 && wd <= 1024){
         mv = 490;
     }else{
