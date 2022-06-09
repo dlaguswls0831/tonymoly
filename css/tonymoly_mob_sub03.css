@@ -111,7 +111,7 @@ div.cntWrap>div.content.cnt02>div.pagbtn{
     margin: 0 auto;
 }
 div.cntWrap>div.content.cnt02>div.pagbtn>ul.paging{
-    padding-left: 0;
+    padding-left: 5px;
     width: 80%;
     margin-top: 20px;
 }
