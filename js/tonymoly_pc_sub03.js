@@ -43,7 +43,6 @@ $(function(){
         artG.css('margin-left',i*-mv+'%');
         pag.find('li').removeClass('on');
         pag.find('li').eq(i).addClass('on');
-        console.log(i)
     }
     function rightSlide(){
         i--;
