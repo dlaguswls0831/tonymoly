@@ -21,7 +21,7 @@ $(function(){
     // cnt02 슬라이드 초기세팅
     artG.find('.image:last').prependTo(artG);
     artG.css('margin-left',-mv+'%');
-    
+
     function left(){
         artG.stop().animate({
             marginLeft : 0

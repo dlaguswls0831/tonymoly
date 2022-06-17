@@ -114,8 +114,8 @@ div.cntWrap>div.content.cnt02>div.section{
 }
 div.cntWrap>div.content.cnt02>div.section>div.artGroup{
     width: 400%;
-    touch-action: pan-y;
-    -ms-touch-action: pan-y;
+    touch-action: pan-x;
+    -ms-touch-action: pan-x;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.image{
     width: calc(100% / 8 - 20px);

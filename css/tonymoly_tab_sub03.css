@@ -153,6 +153,8 @@ div.cntWrap>div.content.cnt02>div.artView{
 }
 div.cntWrap>div.content.cnt02>div.artView>div.artGroup{
     width: 400%;
+    touch-action: pan-x;
+    -ms-touch-action: pan-x;
 }
 div.cntWrap>div.content.cnt02>div.artView>div.artGroup>div.article{
     width: calc(100% / 8 - 20px);
